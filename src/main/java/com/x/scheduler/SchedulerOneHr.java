@@ -40,7 +40,7 @@ public class SchedulerOneHr implements Job{
         Content content = new Content("text/plain", "and easy to do anywhere, even with Java");
         Mail mail = new Mail(from, subject, to, content);
 
-        SendGrid sg = new SendGrid("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");
+        SendGrid sg = new SendGrid("SG.xxxxxxxxxxxxxxxx");
         Request request = new Request();
         try {
           request.setMethod(Method.POST);
